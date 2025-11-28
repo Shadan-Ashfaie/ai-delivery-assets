@@ -83,9 +83,3 @@ content analysis and classification systems
 supervised learning for communication monitoring
 
 risk scoring and regulatory automation
-
-These patterns map closely to enterprise AI systems such as Proofpoint’s Digital Communications Governance (DCG) solutions.
-
-Contact:
-
-Additional examples (architecture diagrams, thin-slice planning templates, or AI delivery workflows) can be provided upon request.
