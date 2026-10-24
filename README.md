@@ -1,85 +1,44 @@
-AI Delivery Assets
+# Enterprise AI Delivery & Governance Frameworks
 
-Visuals and frameworks used to guide predictive machine learning (ML) program delivery, experimentation, and production readiness across enterprise environments.
+Practical frameworks for taking AI opportunities from business discovery through architecture, evaluation, production readiness, adoption, and measurable outcomes.
 
-Overview
+This is a **technology leadership and solution-delivery portfolio**, not a collection of production application source code. The frameworks are illustrative, vendor-neutral, and do not describe confidential employer or client implementations.
 
-This repository contains diagrams illustrating the end-to-end delivery lifecycle for supervised machine learning and predictive analytics initiatives. These visuals reflect delivery frameworks I have used across enterprise AI/ML programs — including recommendation engines, risk prediction models, and forecasting solutions.
+## Featured frameworks
 
-The frameworks represent my approach as a Senior Program Manager to align Engineering, Product, Data Science, Compliance, and UI teams around predictable, outcome-driven AI delivery.
+### Predictive ML Thin-Slice Delivery Model
 
-Featured Framework: Predictive ML Thin-Slice Delivery Model
+My original framework for coordinating predictive ML experimentation with early API/UI integration, product feedback, and operational readiness.
 
-The main diagram represents a structured delivery approach designed to accelerate ML execution and reduce risk. It includes three major phases that loop iteratively:
+**1. Initiate:** Establish business goals, success measures, architecture, data readiness, risks, delivery roadmap, and shared ownership across engineering, product, data science, and compliance.
 
-1. Project Initiation
+**2. Experiment with early integration:** Evaluate model candidates, test business scenarios, connect outputs to APIs and user workflows, and run iterative A/B or side-by-side comparisons. Validate the product experience alongside model performance.
 
-Define business goals and success metrics
+**3. Prepare for production:** Confirm model selection, harden integrations, complete security/privacy reviews, establish monitoring and operational ownership, and plan deployment and maintenance.
 
-Establish architecture and technical approach
+The model illustrates how teams can shorten feedback cycles without treating model accuracy as the only measure of success.
 
-Build epics, roadmap, and initial backlog
+### [Enterprise GenAI Solution Lifecycle](docs/enterprise-genai-lifecycle.md)
 
-Confirm data access, pipelines, and environments
+![Enterprise GenAI lifecycle diagram](enterprise-genai-lifecycle.svg)
 
-Identify compliance requirements and risks
+A complementary framework for LLM applications, retrieval-augmented generation (RAG), agent-enabled workflows, and enterprise AI integrations. It emphasizes choosing appropriate technical approaches, evidence-based evaluation, security, human oversight, and business value realization.
 
-Enable cross-functional access (engineering, data science, UI/UX)
+## Principles
 
-This creates a unified foundation for experimentation.
+- **Start with the business workflow.** Define outcomes, baseline measures, and the problem before choosing an AI technology.
+- **Use the simplest suitable architecture.** Consider deterministic software, search, predictive ML, RAG, LLMs, agents, and human review based on need and risk.
+- **Evaluate probabilistic behavior.** Test representative questions and failure cases; measure retrieval coverage, groundedness, quality, and tool reliability.
+- **Design for enterprise operation.** Plan identity, permissions, integrations, monitoring, latency, cost, incident handling, and ownership.
+- **Apply proportionate governance.** Address privacy, security, auditability, and human approval according to risk.
+- **Measure realized value.** Distinguish adoption from effectiveness, workflow improvement, and financial return.
 
-2. ML Experimental Sprints (with Early App Integration)
+## About
 
-Each ML sprint includes both model experimentation and application-layer integration to support fast learning cycles:
+My background spans hands-on software development and solution architecture (C#, .NET, Java), enterprise AI/ML product delivery, and cross-functional AI transformation leadership. Recent work involves oversight of GenAI initiatives with APIs, RAG, agentic capabilities, and Python-based AWS Lambda integrations, alongside architecture, evaluation, governance, and adoption collaboration.
 
-Model Work:
+These assets describe **generalized methods**, not any employer's proprietary processes, code, datasets, or architecture.
 
-Exploratory data analysis and feature engineering
+## Usage
 
-Train/evaluate multiple model candidates
-
-Conduct A/B or side-by-side comparisons
-
-Rapid thin-slice iterations to identify top performers
-
-Application / Product Work:
-
-Build early UI/API endpoints for model output
-
-Integrate prediction scores into dashboards, alerts, or workflows
-
-Conduct early user testing or internal demos
-
-Validate usability, risk indicators, and business logic
-
-Support A/B testing at the product interface level
-
-This combined ML + UI approach ensures the actual product experience evolves alongside the model, enabling early feedback from users, stakeholders, or compliance reviewers.
-
-3. Productionization & Governance
-
-Finalize model selection based on A/B results
-
-Harden APIs and integrate into the application
-
-Establish automated monitoring, drift detection, and alerting
-
-Connect to CI/CD pipelines
-
-Document model behavior, governance rules, and user guidance
-
-Prepare for deployment reviews (security, compliance, privacy)
-
-This ensures AI solutions move into production safely, predictably, and with long-term maintainability.
-
-Applicability:
-
-While this diagram is based on predictive ML programs, the same delivery principles — iterative experimentation, UI/API integration, structured evaluation, and governance — also apply to:
-
-AI compliance workflows
-
-content analysis and classification systems
-
-supervised learning for communication monitoring
-
-risk scoring and regulatory automation
+These reference materials are for professional discussion and learning. Adapt controls and acceptance criteria to the specific application's risk, regulatory context, and operating environment.
